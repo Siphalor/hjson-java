@@ -922,7 +922,7 @@ public class JsonObject extends JsonValue implements Iterable<Member> {
    *           the number of elements to be displayed per-line.
    * @return the object itself, to enable method chaining
    */
-  public JsonObject setLineLength(int value) { lineLength=value; return this; }
+  public JsonObject setLineLength(int value) { lineLength=value>0?value:1; return this; }
 
   /**
    * Detects whether this object is "condensed" i.e. whether it should be displayed entirely on
