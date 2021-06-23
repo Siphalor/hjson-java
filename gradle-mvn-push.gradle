@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-apply plugin: 'maven'
+/*apply plugin: 'maven'
 apply plugin: 'signing'
 
 def isReleaseBuild() {
@@ -92,3 +92,4 @@ afterEvaluate { project ->
     sign configurations.archives
   }
 }
+*/
